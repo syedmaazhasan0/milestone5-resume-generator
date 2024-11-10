@@ -1,0 +1,92 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color:rgb(168, 223, 227);
+
+}
+h1{
+    text-align: center;
+    color: #743f0e;
+    font-weight: 400;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #d3b384;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+fieldset {
+    border:2x solid #b0a2a2d4;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+legend{
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    margin-top: 10px;
+
+}
+label,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1x solid #d3b384;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display:block;
+    padding: 10px 20px;
+    background-color: #aa842beb;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:fantasyfont;
+    font-size: medium;
+    width:100%
+}
+button:hover{
+    background-color: #855e1b;
+}
+#resumeOutput{
+    width:600px;
+    padding: 20px;
+    margin: auto;
+    border: 2x solid #d3b384;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+#resumeOutput h2{
+    text-align: center;
+    color: #743f0e;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #743f0e;
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
